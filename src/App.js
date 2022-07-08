@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from './logo.svg';
+import imageRickAndMorty from './img/rick-morty.png'
 import './App.css';
 import Character from './components/Character';
 
@@ -24,7 +25,7 @@ function App() {
             <Character characters={ characters } setCharacters={ setCharacters }/>
           :
             <>
-              <img src="./img/rick-morty.png" alt="RickAndMorty" className="img-home" />
+              <img src={ imageRickAndMorty } alt="RickAndMorty" className="img-home" />
               <button onClick={ reqApi } className="btn-search">Buscar Personajes</button>
             </>
         }
