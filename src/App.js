@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from './logo.svg';
-import imageRickAndMorty from './img/rick-morty.png'
+import imageRickAndMorty from './img/rick-morty.png';
 import './App.css';
 import Character from './components/Character';
 
